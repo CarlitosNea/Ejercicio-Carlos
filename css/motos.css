@@ -1,0 +1,45 @@
+body{
+    background-image: radial-gradient(circle at 50% 50%, #789afe 0, #1f3259 50%, #000000 100%);
+}
+#div{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(255, 255, 255, 0.337);
+    margin: 200px 15% 0px 15%;
+    border-style: ridge;
+    border-radius: 20px;
+}
+#texto{
+
+    width: 50%;
+    margin: 20px;
+}
+#imagen1{
+    
+    width: 50%;
+    margin: 20px;
+}
+#imagen2{
+    
+    width: 50%;
+    margin: 20px;
+}
+p{
+    font-size: xx-large;
+}
+#links{
+    display: flex;
+    justify-content: space-around ;
+    background-color: black;
+    margin: 200px 30% 350px 30%;
+    border-style: ridge;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(228, 194, 0);
+    font-size: xx-large;
+}
