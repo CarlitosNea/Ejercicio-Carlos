@@ -15,14 +15,17 @@ body{
     margin: 20px;
 }
 #imagen1{
-    
+    background-image: url(/img/bici1.jpg);
+    background-size: cover;
     width: 50%;
     margin: 20px;
 }
 #imagen2{
-    
+    background-image: url(/img/bici2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
     width: 50%;
-    margin: 20px;
+    margin: 20px 0px 20px 80px;
 }
 p{
     font-size: xx-large;
