@@ -1,5 +1,27 @@
+@font-face{
+    font-family: "letra";
+    src: url(/Ejercicio-Carlos/css/ShantellSans-Italic-VariableFont_BNCE\,INFM\,SPAC\,wght.ttf);
+}
+
 body{
     background-image: radial-gradient(circle at 50% 50%, #789afe 0, #1f3259 50%, #000000 100%);
+}
+#div-titulo{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+#texto-tit{
+
+    color: white;
+    font-size: 70px;
+}
+#collapseExample{
+    width: 60%;
+    margin: auto;
+}
+#tx-collapse{
+    font-size:larger;
 }
 #div{
     display: flex;
@@ -28,6 +50,7 @@ body{
     margin: 20px 0px 20px 80px;
 }
 p{
+    font-family: letra;
     font-size: xx-large;
 }
 #links{
@@ -41,8 +64,9 @@ p{
     padding-bottom: 30px;
 }
 
-a{
+#tx-links{
     text-decoration: none;
     color: rgb(228, 194, 0);
     font-size: xx-large;
+    font-family: letra;
 }
