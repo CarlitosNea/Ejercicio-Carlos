@@ -1,5 +1,5 @@
 body{
-    background-image: radial-gradient(circle at 50% 50%, #fcfe78 0, #d6bee9 50%, #ff0f0f 100%);
+    background-image: radial-gradient(circle at 50% 50%, #2e2e29 0, #690eb4 50%, #ff0f0f 100%);
 }
 #div{
     display: flex;
@@ -46,4 +46,12 @@ a{
     text-decoration: none;
     color: rgb(53, 228, 0);
     font-size: xx-large;
+}
+
+.row{
+    display: flex;
+    padding-left: 45%;
+    margin-top: 5%;
+    height: 50%;
+    width: 100%;
 }
