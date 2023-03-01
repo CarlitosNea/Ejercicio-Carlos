@@ -1,5 +1,5 @@
 body{
-    background-image: radial-gradient(circle at 50% 50%, #789afe 0, #1f3259 50%, #000000 100%);
+    background-image: radial-gradient(circle at 50% 50%, #fcfe78 0, #d6bee9 50%, #ff0f0f 100%);
 }
 #div{
     display: flex;
@@ -15,17 +15,18 @@ body{
     margin: 20px;
 }
 #imagen1{
-    background-image: url(/Ejercicio-Carlos/img/bici1.jpg);
-    background-size: cover;
-    width: 50%;
-    margin: 20px;
-}
-#imagen2{
-    background-image: url(/Ejercicio-Carlos/img/bici2.jpg);
-    background-size: contain;
+    background-image: url(/Ejercicio-Carlos/img/carro1.jpg);
+    background-size:contain;
     background-repeat: no-repeat;
     width: 50%;
     margin: 20px 0px 20px 80px;
+}
+#imagen2{
+    background-image: url(/Ejercicio-Carlos/img/carro2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;
+    margin: 20px;
 }
 p{
     font-size: xx-large;
@@ -43,6 +44,6 @@ p{
 
 a{
     text-decoration: none;
-    color: rgb(228, 194, 0);
+    color: rgb(53, 228, 0);
     font-size: xx-large;
 }

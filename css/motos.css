@@ -15,14 +15,14 @@ body{
     margin: 20px;
 }
 #imagen1{
-    background-image: url(/img/moto1.jpg);
+    background-image: url(/Ejercicio-Carlos/img/moto1.jpg);
     background-size:contain;
     background-repeat: no-repeat;
     width: 50%;
     margin: 20px 0px 20px 80px;
 }
 #imagen2{
-    background-image: url(/img/moto2jpg.jpg);
+    background-image: url(/Ejercicio-Carlos/img/moto2jpg.jpg);
     background-size: cover;
     width: 50%;
     margin: 20px;
